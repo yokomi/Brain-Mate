@@ -19,11 +19,20 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/components/*": ["src/components/*"],
-      "@/context/*": ["src/context/*"],
-      "@/utils/*": ["src/utils/*"],
-      "@/styles/*": ["src/styles/*"]
-    }
+      "@/components/*": [
+        "src/components/*"
+      ],
+      "@/context/*": [
+        "src/context/*"
+      ],
+      "@/utils/*": [
+        "src/utils/*"
+      ],
+      "@/styles/*": [
+        "src/styles/*"
+      ]
+    },
+    "incremental": true
   },
   "exclude": [
     "node_modules"

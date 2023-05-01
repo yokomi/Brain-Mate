@@ -6,22 +6,22 @@ const Header: React.FC = () => {
     <header>
       <nav>
         <Link href="/">
-          <a>Home</a>
+          Home
         </Link>
         <Link href="/about">
-          <a>About</a>
+          About
         </Link>
         <Link href="/blog">
-          <a>Blog</a>
+          Blog
         </Link>
         <Link href="/signup">
-          <a>Sign Up</a>
+          Sign Up
         </Link>
         <Link href="/login">
-          <a>Login</a>
+          Login
         </Link>
         <Link href="/dashboard">
-          <a>Dashboard</a>
+          Dashboard
         </Link>
       </nav>
     </header>
