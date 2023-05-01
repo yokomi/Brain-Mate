@@ -1,11 +1,12 @@
 import React from 'react';
-import Header from '@/components/Header';
+import AppLayout from '@/components/AppLayout';
 
 const Dashboard: React.FC = () => {
   return (
     <div>
-      <Header />
-      <h1>Dashboard</h1>
+      <AppLayout>
+				<h1>DASHBAORD</h1>
+			</AppLayout>
     </div>
   );
 };

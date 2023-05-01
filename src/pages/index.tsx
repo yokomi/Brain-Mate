@@ -16,13 +16,10 @@ const Home: React.FC = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      {/* <main>
-        <HeroSection />
-        <Features />
-        <HowItWorks />
-        <Testimonials />
+      <main>
+        <h1>HOME</h1>
       </main>
-      <Footer /> */}
+
     </div>
   );
 };

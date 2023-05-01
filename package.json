@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/yokomi/Brain-Mate#readme",
   "dependencies": {
+    "@types/antd": "^1.0.0",
+    "antd": "^5.4.6",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
@@ -28,12 +30,14 @@
     "express-session": "^1.17.3",
     "mongoose": "^7.1.0",
     "next": "^13.3.4",
+    "next-transpile-modules": "^10.0.0",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "simple-peer": "^9.11.1",
-    "socket.io": "^4.6.1"
+    "socket.io": "^4.6.1",
+    "styled-components": "^5.3.10"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
@@ -46,6 +50,7 @@
     "@types/react": "^18.2.0",
     "@types/simple-peer": "^9.11.5",
     "@types/socket.io": "^3.0.2",
+    "@types/styled-components": "^5.1.26",
     "typescript": "^5.0.4"
   }
 }
